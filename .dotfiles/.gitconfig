@@ -3,7 +3,7 @@
 [core]
 	editor = nano
 [user]
-	name = ozark0
+	name = dxphilo
 	email = developerphilo@gmail.com
 [push]
 	autoSetupRemote = true
