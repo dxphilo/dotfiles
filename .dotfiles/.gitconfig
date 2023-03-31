@@ -1,0 +1,11 @@
+[http]
+	postBuffer = 157286400
+[core]
+	editor = nano
+[user]
+	name = ozark0
+	email = developerphilo@gmail.com
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main

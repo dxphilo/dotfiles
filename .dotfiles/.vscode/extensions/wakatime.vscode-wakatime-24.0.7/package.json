@@ -1,0 +1,140 @@
+{
+	"name": "vscode-wakatime",
+	"displayName": "WakaTime",
+	"description": "Metrics, insights, and time tracking automatically generated from your programming activity.",
+	"version": "24.0.7",
+	"publisher": "WakaTime",
+	"author": {
+		"name": "WakaTime"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"code time",
+		"productivity",
+		"time",
+		"tracking",
+		"tracker"
+	],
+	"homepage": "https://wakatime.com/",
+	"bugs": {
+		"url": "https://github.com/wakatime/vscode-wakatime/issues",
+		"email": "support@wakatime.com"
+	},
+	"license": "BSD-3-Clause",
+	"icon": "images/wakatime-logo.png",
+	"galleryBanner": {
+		"color": "#AEC3D8",
+		"theme": "light"
+	},
+	"extensionKind": [
+		"workspace"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wakatime/vscode-wakatime.git"
+	},
+	"engines": {
+		"vscode": "^1.59.0",
+		"sqlops": "*",
+		"azdata": "*"
+	},
+	"main": "./dist/extension",
+	"browser": "./dist/web/extension",
+	"scripts": {
+		"vscode:prepublish": "webpack --mode production",
+		"compile": "webpack --mode none",
+		"compile:dev": "tsc -p ./",
+		"watch": "webpack --mode none --watch",
+		"open-in-browser": "vscode-test-web --open-devtools --version sources --extensionDevelopmentPath=. .",
+		"test": "npm run compile:dev && node ./node_modules/vscode/bin/test"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "wakatime.apikey",
+				"title": "WakaTime: Api Key"
+			},
+			{
+				"command": "wakatime.proxy",
+				"title": "WakaTime: Proxy"
+			},
+			{
+				"command": "wakatime.debug",
+				"title": "WakaTime: Debug"
+			},
+			{
+				"command": "wakatime.disable",
+				"title": "WakaTime: Disable/Enable Extension"
+			},
+			{
+				"command": "wakatime.status_bar_enabled",
+				"title": "WakaTime: Status Bar Enabled"
+			},
+			{
+				"command": "wakatime.status_bar_coding_activity",
+				"title": "WakaTime: Status Bar Coding Activity"
+			},
+			{
+				"command": "wakatime.dashboard",
+				"title": "WakaTime: Open Dashboard"
+			},
+			{
+				"command": "wakatime.config_file",
+				"title": "WakaTime: Open Config File..."
+			},
+			{
+				"command": "wakatime.log_file",
+				"title": "WakaTime: Open Log File..."
+			}
+		],
+		"configuration": {
+			"title": "WakaTime",
+			"properties": {
+				"wakatime.apiKey": {
+					"type": "string",
+					"description": "Defaults to value from ~/.wakatime.cfg, unless running in browser.",
+					"scope": "application"
+				}
+			}
+		}
+	},
+	"devDependencies": {
+		"@types/adm-zip": "^0.4.34",
+		"@types/azdata": "^1.35.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "^17.0.21",
+		"@types/request": "^2.48.8",
+		"@types/vscode": "^1.59.0",
+		"@types/webpack": "^5.28.0",
+		"@types/which": "^2.0.1",
+		"@vscode/test-web": "^0.0.22",
+		"adm-zip": "0.5.9",
+		"azdata": "^1.0.0",
+		"del-cli": "^4.0.1",
+		"original-fs": "^1.1.0",
+		"prettier": "2.6.0",
+		"request": "2.88.2",
+		"ts-loader": "^9.2.8",
+		"tslib": "^2.3.1",
+		"typescript": "^4.6.2",
+		"webpack": "^5.70.0",
+		"webpack-cli": "^4.9.2",
+		"which": "^2.0.2"
+	},
+	"__metadata": {
+		"id": "f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3",
+		"publisherId": "27977793-9e84-451b-8977-744ce63f3d70",
+		"publisherDisplayName": "WakaTime",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1677398881303
+	}
+}

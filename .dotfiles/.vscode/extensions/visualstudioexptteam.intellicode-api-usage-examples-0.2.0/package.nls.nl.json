@@ -1,0 +1,6 @@
+{
+	"extension.title": "Gebruiksvoorbeelden van IntelliCode-API",
+	"extension.description": "Bekijk relevante codevoorbeelden van GitHub voor meer dan 100.000 verschillende API's rechtstreeks in uw editor.",
+	"extension.titleshort": "Gebruiksvoorbeelden van IntelliCode-API",
+	"settings.logging": "Logboekregistratieniveau voor console"
+}

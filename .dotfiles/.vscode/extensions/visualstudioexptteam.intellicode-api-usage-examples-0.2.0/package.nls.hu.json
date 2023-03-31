@@ -1,0 +1,6 @@
+{
+	"extension.title": "IntelliCode API használati példák",
+	"extension.description": "A GitHub releváns kód példáinak megtekintése több mint 100 ezer különböző API-ra vonatkozóan közvetlenül a szerkesztőjében.",
+	"extension.titleshort": "IntelliCode API használati példák",
+	"settings.logging": "Konzol naplózási szintje"
+}
