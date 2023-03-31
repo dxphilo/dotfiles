@@ -1,0 +1,17 @@
+# Install the latest version of Rust
+brew install rustup-init
+
+# Install the latest version of Python
+brew install python
+
+# Install the latest version of Node.js
+brew install node
+
+# Install the latest version of Yarn
+brew install yarn
+
+# Install the latest version of PNPM
+brew install pnpm
+
+# Install the latest version of Cargo
+brew install cargo
