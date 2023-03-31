@@ -15,3 +15,6 @@ brew install pnpm
 
 # Install the latest version of Cargo
 brew install cargo
+
+# Install git
+brew install git
