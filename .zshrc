@@ -10,8 +10,9 @@ fi
 #export HOMEBREW_INSTALL_CLEANUP=false
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/git/bin"
-alias code='PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH" code'
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/git/bin:/Users/your_username/Downloads/Visual Studio Code.app/Contents/Resources/app/bin"
+
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
