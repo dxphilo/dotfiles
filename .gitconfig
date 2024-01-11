@@ -1,0 +1,51 @@
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	grep = auto
+	interactive = auto
+	status = auto
+
+[user]
+	email = developerphilo@gmail.com
+	name = John Philip
+
+[core]
+	autocrlf = false
+	excludesfile = ~/.gitignore_global
+	whitespace = blank-at-eol,blank-at-eof,space-before-tab
+
+[push]
+	default = simple
+
+[rerere]
+	enabled = true
+	autoupdate = true
+
+[rebase]
+	# Automatically stash before a rebase and unstash afterwards.
+	autoStash = true
+
+[commit]
+	# Show diff when preparing commit message
+	verbose = true
+
+[alias]
+	a = add
+	st = status
+	ci = commit
+	b = branch
+	co = checkout
+	re = remote
+	d = diff
+
+### Github specific
+###
+[github]
+	user = dxphilo
+
+
+
+
+[http]
+	postBuffer = 524288000
