@@ -1,4 +1,4 @@
-#!/bin/bash
+   31   command -v $1 > /dev/null 2>&1 
 
 
 Green='\033[0;32m' # Green
@@ -49,6 +49,17 @@ curl https://sh.rustup.rs -sSf | sh
 #Install Neovim
 echo -e "${Green} Installing Neovim"
 brew install neovim 
+
+# Install python-lsp-server
+
+echo -e "${Green} installing python-lsp-server"
+pip install 'python-lsp-server[all]' pylsp-mypy python-lsp-isort python-lsp-black
+
+#Install vim-language-server
+npm install -g vim-language-server
+
+#Install ctags
+brew install ctags
 
 # Install PostgreSQL
 echo -e "${Green} Installing Postgresql${NC}"
