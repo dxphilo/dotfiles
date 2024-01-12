@@ -8,7 +8,7 @@
 
 [user]
 	email = developerphilo@gmail.com
-	name = John Philip
+	name = dxphilo
 
 [core]
 	autocrlf = false
@@ -17,6 +17,7 @@
 
 [push]
 	default = simple
+	autoSetupRemote = true
 
 [rerere]
 	enabled = true
