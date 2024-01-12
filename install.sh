@@ -46,6 +46,9 @@ echo -e "${Green} Installing RUST${NC}"
 printf "\n"
 curl https://sh.rustup.rs -sSf | sh
 
+#Install Neovim
+echo -e "${Green} Installing Neovim"
+brew install neovim 
 
 # Install PostgreSQL
 echo -e "${Green} Installing Postgresql${NC}"
