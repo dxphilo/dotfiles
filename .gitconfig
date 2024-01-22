@@ -10,11 +10,6 @@
 	email = developerphilo@gmail.com
 	name = dxphilo
 
-[core]
-	autocrlf = false
-	excludesfile = ~/.gitignore_global
-	whitespace = blank-at-eol,blank-at-eof,space-before-tab
-
 [push]
 	default = simple
 	autoSetupRemote = true
